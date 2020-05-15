@@ -59,7 +59,6 @@
                   <br>John Day Downstream Gate & Sheave Replacement. (n.d.). Retrieved May 15, 2020, from https://www.advanced-american.com/projects/john-day-downstream-gate-sheave-replacement/view/</br>
                   <br>Dams and Energy Sectors Interdependency Study. (2017). 58.</br>
                 </h6>
-
             </section>
             <section  data-scene="Dam2">
                 <h2>Chief Joseph Dam</h2>
@@ -72,7 +71,8 @@
                   of 1948 renamed the project Chief Joseph Dam in honor of the Nez Perce chief who spent his last
                   years in exile on the Colville Indian Reservation. Because of its lack of fish ladders. Since this
                   is not able to store large amounts of water in it's resevoir, another dam called Wells Dam needs
-                  to flow water at the same rate.</p>
+                  to flow water at the same rate.
+                </p>
                 <p>The Chief Joseph dam attracts many visitors each year while many recreational acitvities
                   excist around the lake and the area. It is a favotire spot for anglers which have major game
                   fish such as Walleye, Rainbow Trout and triploid. Even though there is an abundant amount of game fish
@@ -97,13 +97,15 @@
                   The hydroelectric has served many benefits such as producing cheap, safe and environmentally power. The
                   Robert Moses Dam is one of cleanest producing energy generators in New York and has had many upgrades in
                   in the past decades to keep hydroelectric power avaliable for all customers especially when it comes to the
-                  supplying electric vehicles as there popularity increases.</p>
+                  supplying electric vehicles as there popularity increases.
+                </p>
                 <p> Economically the dam is valuable tool in New York's economy as it protects more than 27,200
                   jobs (the municipal) wiht more upgrades being put in to it. As dams provide a abundance of clean and
                   renewable energy they come at an environmental cost. The geographic location of New York where it has
                   waters coming from Canada provides a great source of constant energy but the impact of wild life will
                   need to be assesed more to fully understand the wildlife impacts. Not enough research has been done but
-                  the dam is proving that is is much cheaper and more sustainable than using fossil fuels. </p>
+                  the dam is proving that is is much cheaper and more sustainable than using fossil fuels.
+                </p>
                   <h6><br>References:</br>
                     <br>Niagara Falls History of Power Development—The Robert Moses Niagara Generating Station. (2017, February 3). Niagara Falls Info. https://www.niagarafallsinfo.com/niagara-falls-history/niagara-falls-power-development/the-history-of-power-development-in-niagara/robert-moses-generating-station/</br>
                     <br>Niagara Power Project. (n.d.). Retrieved May 15, 2020, from https://www.nypa.gov/power/generation/niagara-power-project</br>
@@ -120,12 +122,14 @@
                 watershed. Built and operated by the U.S. Army Corps of Engineers with the capacity to produce 2,160 mW from its
                 16 generators. The John Day Hydropower Dam is 1975 ft in length and 184 ft tall. The dam underwent major structural
                 repairs in the lockgate 2010 and a fish passage which was documented by National Geographic. It is a cool documentary
-                to see.</p>
+                to see.
+              </p>
                 <p>As the dam is located in the Lower Columbia River which is a major spawning ground for many endangered salmon and trout
                 species there has been many projects to improve endangered species population. The U.S. Army of Engineers is obligated to
                 to find ways to preserve, mitgate and protect endangered species under the Endangered Species Act. Efforts such as the creating
                 a fish pathway has been succesful in redirecting and providing these aqautic species with thier spawning grounds to provide for
-                other critical recreational activities that will boost the Oregons economy.  </p>
+                other critical recreational activities that will boost the Oregons economy.
+              </p>
                 <h6><br>References:</br>
                 <br>John Day Dam. (2020). In Wikipedia. https://en.wikipedia.org/w/index.php?title=John_Day_Dam&oldid=954033458</br>
                 <br>John Day Downstream Gate & Sheave Replacement. (n.d.). Retrieved May 15, 2020, from https://www.advanced-american.com/projects/john-day-downstream-gate-sheave-replacement/view/</br>
@@ -156,9 +160,6 @@
                 <br>Editors, H. com. (n.d.). Hoover Dam. HISTORY. Retrieved May 15, 2020, from https://www.history.com/topics/great-depression/hoover-dam</br>
                 <br>Dams and Energy Sectors Interdependency Study. (2017). 58.</br>
               </h6>
-
-
-
             </section>
         </div>
         <div class="col-sm-6 col-md-8 storymap-map"></div>
@@ -183,7 +184,6 @@
         Dam5: {lat: 36.015935, lng: -114.737690, zoom: 15, name: "Dam 5"}
     };
 
-
     $('#storymap').storymap({
         scenes: dam,
         baselayer: layers.Mapbox_Streets,
@@ -201,24 +201,10 @@
             for (const d in dam) {
               dam_info = dam[d] // return info in format {lat: 47.956, lng: -118.980, zoom: 14,  name: "Dam 1"}
               var marker = L.marker([dam_info.lat, dam_info.lng]).addTo(map);
-
-              // var popup = L.popup()
-              // .setLatLng([dam_info.lat, dam_info.lng])
-              // .setContent("Hello")
-              // .addTo(map);
-
             }
             return map;
         }
     });
-
-    // var popup = L.popup()
-    // .setLatLng([47.956, -118.980])
-    // .setContent("hello")
-    // .openOn(map)
-
-
-
 </script>
 </body>
 </html>
