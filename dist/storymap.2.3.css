@@ -353,14 +353,12 @@ nav li a,
     text-decoration: none;
 }
 
-dt {
-  float: right: 50px;
-}
 
-.navbar-center {
+
+/* .navbar-center {
   left: 50%;
   position: absolute;;
-}
+} */
 
 .fa-twitter:hover {
     color: #00acee;
