@@ -353,13 +353,10 @@ nav li a,
     text-decoration: none;
 }
 
-
-
-/* .navbar-center {
-  left: 50%;
-  position: absolute;;
-} */
-
 .fa-twitter:hover {
     color: #00acee;
+}
+
+.fa-git-square:hover {
+    color: #ff0000;
 }
