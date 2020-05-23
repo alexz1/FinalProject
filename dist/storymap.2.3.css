@@ -352,3 +352,16 @@ nav li a,
     color: rgba(0, 117, 255, 0.6);
     text-decoration: none;
 }
+
+dt {
+  float: right: 50px;
+}
+
+.navbar-center {
+  left: 50%;
+  position: absolute;;
+}
+
+.fa-twitter:hover {
+    color: #00acee;
+}
